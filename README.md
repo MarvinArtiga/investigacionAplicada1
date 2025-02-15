@@ -40,6 +40,7 @@ específicas. <br> <br>
 ### Instalacion 
   -Clonar el repositorio (git clone  https://github.com/MarvinArtiga/investigacionAplicada1.git) <br>
   -Abrir el proyecto en intellij idea <br>
+  -Actualizar la JDK si es necesario (se esta usando la version 23.0.2) 
 
 
 ### Créditos
