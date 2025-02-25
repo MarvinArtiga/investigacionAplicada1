@@ -18,7 +18,7 @@ public class TorneoLiga extends Torneo implements Competencia {
 
     @Override
     public void asignarPuntos() {
-        // Asignar puntos a los equipos de manera aleatoria por ahora
+        // Asigngit ar puntos a los equipos de manera aleatoria por ahora
         System.out.println("Asignando puntos en la Liga...");
         for (Equipo equipo : equipos) {
             int puntosEquipo = (int) (Math.random() * 10); // Puntos aleatorios entre 0 y 9

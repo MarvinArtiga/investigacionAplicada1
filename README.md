@@ -41,10 +41,13 @@ específicas. <br> <br>
   -Clonar el repositorio (git clone  https://github.com/MarvinArtiga/investigacionAplicada1.git) <br>
   -Abrir el proyecto en intellij idea <br>
 <<<<<<< HEAD
+<<<<<<< HEAD
   -Actualizar la JDK si es necesario (se esta usando la version 23.0.2) 
 =======
   -Actualizar el SDK si es necesario (Se esta usando la version 23.0.2)
 >>>>>>> dda67bb5fa499495644e05ea2611e31f915f4369
+=======
+>>>>>>> master
 
 
 ### Créditos
