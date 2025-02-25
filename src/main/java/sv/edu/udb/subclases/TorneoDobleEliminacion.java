@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class TorneoDobleEliminacion extends Torneo {
 
-    private Map<Equipo, Integer> derrotas;
+    private final Map<Equipo, Integer> derrotas;
 
     public TorneoDobleEliminacion() {
         super();
@@ -18,13 +18,12 @@ public class TorneoDobleEliminacion extends Torneo {
     @Override
     public void iniciarTorneo() {
         super.iniciarTorneo();
-        // Aquí se puede hacer una simulación de derrota
+
         System.out.println("Iniciando el torneo de Doble Eliminación...");
     }
 
     @Override
     public Equipo calcularGanador() {
-        // Este es solo un ejemplo. La lógica de doble eliminación debe ser más compleja.
         return equipos.get(0); // Solo se elige el primer equipo, pero en la realidad sería más elaborado.
     }
 
